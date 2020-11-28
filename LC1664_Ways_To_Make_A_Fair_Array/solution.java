@@ -1,4 +1,4 @@
-// smart solution by @lee215 from leetcode reference
+// smart solution by @lee215 from leetcode reference: https://leetcode.com/problems/ways-to-make-a-fair-array/discuss/944544/JavaPythonPython-Easy-and-Concise
 public int waysToMakeFair(int[] A) {
     int res = 0, n = A.length, left[] = new int[2], right[] = new int[2];
     for (int i = 0; i < n; i++)
